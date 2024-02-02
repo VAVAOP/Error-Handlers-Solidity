@@ -18,7 +18,7 @@ contract Error {
         }
     }
 
-    uint public num=5;
+    uint public num=0;
 
     function testAssert() public view {
         // Assert should only be used to test for internal errors,
